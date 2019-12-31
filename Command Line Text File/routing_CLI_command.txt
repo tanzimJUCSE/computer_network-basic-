@@ -1,0 +1,10 @@
+en
+conf t
+***The above two lines will enable the configuration***
+
+ip route intended_network_address subnet_mask next_hope_address
+**This above line will decide the exact route***
+end
+
+sh ip route
+***This line in general shows all the routes
